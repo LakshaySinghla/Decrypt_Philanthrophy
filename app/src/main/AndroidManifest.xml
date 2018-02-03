@@ -17,10 +17,16 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ProfileActivity"/>
-        <activity android:name=".HIWActivty"/>
-        <activity android:name=".NGODetailActivity"/>
-        <activity android:name=".PayActivity"/>
+        <activity android:name=".ProfileActivity"
+            android:label="Profile"/>
+        <activity android:name=".HIWActivty"
+            android:label="How It Works"/>
+        <activity android:name=".NGODetailActivity"
+            android:label="Detials"/>
+        <activity android:name=".PayActivity"
+            android:label="Pay Now"/>
+        <activity android:name=".FormActivity"
+            android:label="Form"/>
     </application>
 
 </manifest>

@@ -81,6 +81,15 @@
             android:id="@+id/recieved_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/get_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Get Money"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 
