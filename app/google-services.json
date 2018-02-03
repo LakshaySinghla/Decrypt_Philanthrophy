@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004053862051",
+    "firebase_url": "https://decrypt-4f0f7.firebaseio.com",
+    "project_id": "decrypt-4f0f7",
+    "storage_bucket": "decrypt-4f0f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004053862051:android:7c524bd3f1e343c6",
+        "android_client_info": {
+          "package_name": "com.singhla.lakshay.decrypt_philanthrophy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004053862051-0uusqdm5a1qtjrk32uq9qftp129oedri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLKoB9RTkYlGMr9rbjFSPKziumduzLa4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

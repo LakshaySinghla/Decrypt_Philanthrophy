@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".HIWActivty"/>
+        <activity android:name=".NGODetailActivity"/>
+        <activity android:name=".PayActivity"/>
     </application>
 
 </manifest>

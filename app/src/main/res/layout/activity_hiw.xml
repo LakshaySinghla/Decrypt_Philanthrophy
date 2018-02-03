@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="Quisque in neque interdum, malesuada ante in, mollis ipsum. Ut placerat, lacus vel porttitor fringilla, massa enim aliquet sem, eget porta mauris tellus euismod lectus. Ut dignissim consequat odio quis lobortis. Nunc sed sem ut mi maximus pharetra ac at dui. Nam imperdiet pretium egestas. Sed nunc dui, lacinia ac dolor quis, ullamcorper mollis arcu. Duis vel scelerisque diam, eget lacinia elit. Pellentesque sit amet dapibus nisi. Sed quis metus dui. In imperdiet pellentesque sapien, et ullamcorper libero porttitor laoreet. Cras non dictum diam, id posuere sem. Maecenas vulputate eros a neque tristique, et vehicula nisl tincidunt. Praesent ullamcorper ultrices nisi, non porta felis malesuada ac."/>
+</LinearLayout>

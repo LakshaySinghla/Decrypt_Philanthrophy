@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NGO NAME"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10px"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="30px"
+    android:layout_margin="30px"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Target: "
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Current Funds: "
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
+   <TextView
+       android:padding="10px"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id semper risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean iaculis tempus massa. Vestibulum egestas fringilla turpis, sed lobortis lorem sagittis quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quis luctus metus, ac interdum enim. In scelerisque urna eget orci sagittis, sed consectetur mauris varius. Maecenas euismod tristique dui nec vestibulum. Sed ac ante leo. Vestibulum nec risus ut orci egestas venenatis vel quis odio. Quisque consequat scelerisque neque vitae pulvinar. Curabitur facilisis a augue sed vestibulum."/>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20px"
+    android:padding="20px"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/payButton"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Pay"/>
+</RelativeLayout>
+
+</LinearLayout>
