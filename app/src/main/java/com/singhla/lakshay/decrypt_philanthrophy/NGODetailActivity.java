@@ -23,8 +23,9 @@ public class NGODetailActivity extends AppCompatActivity {
         name = (TextView) findViewById(R.id.name);
         des = (TextView) findViewById(R.id.description);
         tar = (TextView) findViewById(R.id.target);
-        currentFunds = (TextView) findViewById(R.id.funds);
+        currentFunds = (TextView) findViewById(R.id.currentfvalue);
         pay = (Button) findViewById(R.id.payButton);
+        pay.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
         pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

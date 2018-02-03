@@ -81,7 +81,7 @@
             android:id="@+id/recieved_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <TextView
+        <Button
             android:id="@+id/get_money"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

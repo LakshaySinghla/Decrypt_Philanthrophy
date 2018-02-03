@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,7 +18,8 @@ import android.widget.TextView;
 public class ProfileActivity extends AppCompatActivity {
 
     ImageView img;
-    TextView name, email, location, getMoney;
+    TextView name, email, location;
+    Button getMoney;
     RecyclerView rvDonated, rvRecieved;
     LinearLayoutManager layoutManager1, layoutManager2;
 
@@ -30,7 +32,9 @@ public class ProfileActivity extends AppCompatActivity {
         name = (TextView) findViewById(R.id.name);
         email = (TextView) findViewById(R.id.email);
         location = (TextView) findViewById(R.id.location);
-        getMoney = (TextView) findViewById(R.id.get_money);
+        getMoney =  findViewById(R.id.get_money);
+        getMoney.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
+
         rvDonated = (RecyclerView) findViewById(R.id.donated_list);
         rvRecieved = (RecyclerView) findViewById(R.id.recieved_list);
 

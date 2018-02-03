@@ -27,6 +27,8 @@ public class PayActivity extends AppCompatActivity {
         des = (EditText) findViewById(R.id.description);
 
         pay = (Button) findViewById(R.id.payButton);
+        pay.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
+
         pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
