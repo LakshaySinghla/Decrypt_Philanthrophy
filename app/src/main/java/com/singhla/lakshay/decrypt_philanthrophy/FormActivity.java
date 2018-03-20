@@ -27,13 +27,11 @@ public class FormActivity extends AppCompatActivity {
         target = (EditText) findViewById(R.id.target);
         purpose = (EditText) findViewById(R.id.purpose);
         done  = (Button) findViewById(R.id.done);
-        done.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
-
 
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                //Forward details to database
             }
         });
 

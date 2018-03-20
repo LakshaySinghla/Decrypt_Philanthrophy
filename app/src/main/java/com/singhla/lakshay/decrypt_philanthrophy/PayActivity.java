@@ -1,5 +1,6 @@
 package com.singhla.lakshay.decrypt_philanthrophy;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -46,7 +47,6 @@ public class PayActivity extends AppCompatActivity {
         des = (EditText) findViewById(R.id.description);
 
         pay = (Button) findViewById(R.id.payButton);
-        pay.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
 
         pay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,8 +69,9 @@ public class PayActivity extends AppCompatActivity {
                     Toast.makeText(PayActivity.this, "Connect Failed", Toast.LENGTH_SHORT).show();
                     Log.e("Error","");
                 }
-
-
+                Intent i = new Intent(PayActivity.this, PaymentDoneActivity.class);
+                startActivity(i);
+                finish();
 
             }
         });

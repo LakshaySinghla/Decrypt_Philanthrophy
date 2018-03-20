@@ -32,8 +32,6 @@ public class ProfileActivity extends AppCompatActivity {
         name = (TextView) findViewById(R.id.name);
         email = (TextView) findViewById(R.id.email);
         location = (TextView) findViewById(R.id.location);
-        getMoney =  findViewById(R.id.get_money);
-        getMoney.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
 
         rvDonated = (RecyclerView) findViewById(R.id.donated_list);
         rvRecieved = (RecyclerView) findViewById(R.id.recieved_list);

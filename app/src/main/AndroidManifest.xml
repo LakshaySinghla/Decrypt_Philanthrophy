@@ -22,11 +22,14 @@
         <activity android:name=".HIWActivty"
             android:label="How It Works"/>
         <activity android:name=".NGODetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"
             android:label="Details"/>
         <activity android:name=".PayActivity"
             android:label="Pay Now"/>
         <activity android:name=".FormActivity"
             android:label="Form"/>
+        <activity android:name=".PaymentDoneActivity"
+            android:label="Done"/>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 /**
@@ -16,16 +17,20 @@ public class NGODetailActivity extends AppCompatActivity {
 
     TextView name,des,tar,currentFunds;
     Button pay;
+    Spinner spinner;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ngo_details);
+
+        spinner = (Spinner) findViewById(R.id.spinner);
         name = (TextView) findViewById(R.id.name);
         des = (TextView) findViewById(R.id.description);
         tar = (TextView) findViewById(R.id.target);
         currentFunds = (TextView) findViewById(R.id.currentfvalue);
         pay = (Button) findViewById(R.id.payButton);
-        pay.setBackgroundDrawable(getResources().getDrawable(R.drawable.custom_button_swap));
+
         pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

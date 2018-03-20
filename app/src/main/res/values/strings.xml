@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Decrypt_Philanthrophy</string>
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Buying Books</item>
+        <item>Water and Electricity bills</item>
+        <item>Salaries of employees</item>
+        <item>Other expenditure</item>
+    </string-array>
+
 </resources>

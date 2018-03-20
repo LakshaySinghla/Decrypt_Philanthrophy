@@ -40,7 +40,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="email"/>
+                android:textStyle="bold"
+                android:text="lukkysinghla@gmail.com"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -58,13 +59,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="location"/>
+                android:textStyle="bold"
+                android:text="Delhi"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Money you donated"
-            android:layout_margin="5dp"/>
+            android:text="List of Assets you donated:"
+            android:layout_margin="5dp"
+            android:textSize="18sp"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/donated_list"
@@ -74,8 +77,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Money you recievded"
-            android:layout_margin="5dp"/>
+            android:text="List of Assets you recievded"
+            android:layout_margin="5dp"
+            android:textSize="18sp"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recieved_list"
@@ -86,8 +90,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="Get Money"
-            android:textSize="18sp"
+            android:background="@drawable/button_text_background"
+            android:text="  Start a new Cause  "
+            android:textSize="16sp"
+            android:textColor="@drawable/button_text_color"
             android:padding="5dp"
             android:layout_margin="5dp"/>
 
