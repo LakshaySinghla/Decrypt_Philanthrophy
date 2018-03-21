@@ -44,11 +44,4 @@
         android:layout_width="match_parent"
         android:layout_height="7dp"
         android:background="#d6d6d6"/>
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:text="Description"
-        />
 </LinearLayout>

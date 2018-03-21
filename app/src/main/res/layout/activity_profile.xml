@@ -13,6 +13,7 @@
         android:layout_margin="5dp">
         <ImageView
             android:id="@+id/prf_img"
+            android:src="@drawable/profile"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="10dp"
@@ -22,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Name"
+            android:text="Lakshay Singhla"
             android:textSize="20sp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:text="List of Assets you donated:"
             android:layout_margin="5dp"
+            android:textStyle="bold"
             android:textSize="18sp"/>
 
         <android.support.v7.widget.RecyclerView
@@ -79,6 +81,7 @@
             android:layout_height="wrap_content"
             android:text="List of Assets you recievded"
             android:layout_margin="5dp"
+            android:textStyle="bold"
             android:textSize="18sp"/>
 
         <android.support.v7.widget.RecyclerView

@@ -61,14 +61,33 @@ public class MainActivity extends AppCompatActivity {
 
     void initialiseList(){
         list.clear();
-        for(int i=0;i<10;i++){
-            NGO_Detail item = new NGO_Detail();
-            item.setId(i);
-            item.setName("NGO Name "+ i);
-            item.setDescription("NGO Description");
-            item.setTarget(i*100);
-            list.add(item);
-        }
+        NGO_Detail item = new NGO_Detail();
+        item.setId(0);
+        item.setName("Make A Wish");
+        item.setDescription("After the start of Make-a-Wish in the United States, interst in granting the wishes of children with life threatening medical conditions quickly spread to other nations.");
+        item.setTarget(100);
+        list.add(item);
+
+        item = new NGO_Detail();
+        item.setId(1);
+        item.setName("Udaan");
+        item.setDescription("Helping poor kids since 2002.Unfortunately good intentions don't buy food.");
+        item.setTarget(150);
+        list.add(item);
+
+        item = new NGO_Detail();
+        item.setId(2);
+        item.setName("Smile");
+        item.setDescription("The only thing we care about is putting a smile to every face.");
+        item.setTarget(480);
+        list.add(item);
+
+        item = new NGO_Detail();
+        item.setId(3);
+        item.setName("Woomen Who Code");
+        item.setDescription("Bringing equality to highly male oriented coding culture ");
+        item.setTarget(350);
+        list.add(item);
 
     }
 }

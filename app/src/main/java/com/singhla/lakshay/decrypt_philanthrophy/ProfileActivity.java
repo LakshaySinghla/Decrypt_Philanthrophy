@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 /**
  * Created by Lakshay Singhla on 03-Feb-18.
  */
@@ -22,6 +24,11 @@ public class ProfileActivity extends AppCompatActivity {
     Button getMoney;
     RecyclerView rvDonated, rvRecieved;
     LinearLayoutManager layoutManager1, layoutManager2;
+    RcvdMoneyAdapter radapter;
+    DntMoneyAdapter dadapter;
+    ArrayList<NGO_Detail> list1 = new ArrayList<>();
+    ArrayList<NGO_Detail> list2 = new ArrayList<>();
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -32,6 +39,28 @@ public class ProfileActivity extends AppCompatActivity {
         name = (TextView) findViewById(R.id.name);
         email = (TextView) findViewById(R.id.email);
         location = (TextView) findViewById(R.id.location);
+        getMoney = findViewById(R.id.get_money);
+
+        NGO_Detail item = new NGO_Detail();
+        item.setName("Make a wish");
+        item.setTarget(20);
+        list1.add(item);
+        item = new NGO_Detail();
+        item.setName("Udaan");
+        item.setTarget(50);
+        list1.add(item);
+
+        item = new NGO_Detail();
+        item.setName("Make a wish");
+        item.setTarget(200);
+        list2.add(item);
+        item = new NGO_Detail();
+        item.setName("Udaan");
+        item.setTarget(550);
+        list2.add(item);
+
+        radapter = new RcvdMoneyAdapter(list1);
+        dadapter = new DntMoneyAdapter(list2);
 
         rvDonated = (RecyclerView) findViewById(R.id.donated_list);
         rvRecieved = (RecyclerView) findViewById(R.id.recieved_list);
@@ -48,6 +77,9 @@ public class ProfileActivity extends AppCompatActivity {
         layoutManager2 = new LinearLayoutManager(this);
         rvRecieved.setLayoutManager(layoutManager1);
         rvDonated.setLayoutManager(layoutManager2);
+
+        rvDonated.setAdapter(dadapter);
+        rvRecieved.setAdapter(radapter);
 
     }
 }
