@@ -21,6 +21,10 @@ A prototype working model of the application is provided. For a working model. F
 
 * Download Mist Browser
   Navigate to the Mist download page and download the latest version of the Mist installer — https://github.com/ethereum/mist/releases
-  Add accounts and deploy the smart contract provided and send ether as shown in video.
   
+* Add accounts and deploy the smart contract provided and send ether as shown in video.
+  
+Data.rar file contains the contract info and private chain folder which are required for running of this app.
+
+Video link - https://youtu.be/2hXjTCRKDSQ
   
