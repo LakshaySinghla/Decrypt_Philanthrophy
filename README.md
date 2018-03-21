@@ -1,4 +1,4 @@
-# Decrypt_Philanthrophy
+# Decrypto
 
 A modern world application to modernize philanthropy and solve problems
 related to it. This mobile application uses blockchain technology to track
